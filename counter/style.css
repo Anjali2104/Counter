@@ -1,0 +1,29 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+.counter{
+height:100vh;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+box-shadow:black;
+}
+.incre-decre{
+display: flex;
+flex-direction: row;
+margin: 20px;
+gap:20px;
+}
+p{
+    /* border: 1px solid black; */
+    margin-top:10px ;
+   font-weight: 600;
+   text-align: center;
+}
+button{
+    padding: 10px;
+    font-weight: 600;
+}
